@@ -1,5 +1,10 @@
 <template>
-  <div>Hello {{ value }}</div>
+  <div>
+  
+    <img :src="require('../static/vue.png')"/>
+    <div>Hello {{ value }}</div>
+  </div>
+  
 </template>
 
 <script>
